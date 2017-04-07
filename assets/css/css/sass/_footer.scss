@@ -1,0 +1,81 @@
+#site-footer{
+	background:$lgrey;
+	color:#fff;
+	a{
+	color:#fff;
+	}
+	.foot-columns{
+		padding:3em 0 2em 0;
+	}
+	.footer-widgets{
+		padding-top:2em;
+		padding-bottom:2em;
+		color:$crem;
+		   font-size: 0.8em;
+		a{
+			color:$crem;
+			&:hover{
+			color:#fff;
+			}
+		}
+		.foot-widget-title{
+			font-size:.7em;
+			margin:0;
+			padding:0 0 .5em 0;
+			color:#a5a5a5;
+			letter-spacing:1px;
+		}
+		ul,ul.menu{
+			margin:0;
+			padding:0;
+			li{
+				display:block;
+				margin:0;
+				list-style:none;
+				padding:.3em 0;
+				line-height:1.5em;
+			}
+			a{
+				padding:0;
+				display:block;
+				line-height:1.5em;
+			}
+		}
+	}
+	.copy-menu{
+	font-family:$goth-bold;
+		color: #fff;
+    font-size: 0.5em;
+    text-transform: uppercase;
+	ul.menu{
+		padding:0;
+		margin:0;
+	}
+	ul.menu>li{
+		display:inline-block;
+		list-style:none;
+	}
+		a{
+			display:inline-block;
+			padding:2em 1em 2em 0;
+
+			color: #fff;
+			&:hover{
+				color: #000;
+			}
+		}
+	}
+	.copy-txt{
+	font-size:.5em;
+	color: #fff;
+		line-height:2em;
+	}
+	.copyright{
+		background:$newred;
+		padding:1em 0;
+	}
+}
+.footer-logo{
+	padding:.4em 4em 0   4em;
+	display:block;
+}

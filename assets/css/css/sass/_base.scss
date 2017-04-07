@@ -1,0 +1,31 @@
+body{
+	background:$body-bg;
+	font-family:$goth-light;
+	font-size:1.1em;
+}
+.row{
+position:relative;
+}
+h1,h2,h3,h4,h5,h6{	font-family:$archer-book;}
+a{
+	transition:all .3s ease;
+}
+p{
+	margin:0;
+	padding:1em 0;
+}
+.entry-content{
+	padding:2em 0 2em 0;
+	.page-header{
+		padding:2.2em 0 0 0;
+	}
+	p{
+		padding:.5em 0;
+	}
+}
+.entry-content.has-thumb{
+	padding:4.2em 0 2em 0;
+}
+.sidebar-contents {
+	padding:1em 0;
+}
