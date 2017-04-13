@@ -1,0 +1,17 @@
+{
+  "name": "lanchpad",
+  "version": "1.0.0",
+  "description": "Wordpress Theme with Advance tools GulpJs, Postcss.",
+  "author": "Lovin Nagi",
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-postcss": "^6.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1"
+  }
+}

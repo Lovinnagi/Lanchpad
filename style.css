@@ -1,11 +1,11 @@
 /*
-Theme Name: WineMaker
+Theme Name: CC Launchpad
 Theme URI: http://flyingwinemaker.com.hk
 Author: Colour Code HK
 Author URI: http://colourcode.hk
-Description: Theme for The Flying Winemaker
+Description: Wordpress theme Using Gulp, Postcss
 Version: 3.0.0
-Text Domain: winemaker
+Text Domain: cclanchpad
 License: All rights reserved
 License URI: http://colourcode.hk
 
@@ -24,7 +24,7 @@ License URI: http://colourcode.hk
 .gallery-caption,
 .bypostauthor,
 .alignright ,
-.alignleft, 
+.alignleft,
 .aligncenter {
 }
 
@@ -97,12 +97,12 @@ video.view .play-btn {
 
 
 #personal {
-    
+
     background: url(http://winemaker.wpengine.com/wp-content/uploads/2017/02/personaback.png) top left no-repeat;
     background-size:cover;
     }
-#personal .lines-title { color:#fff;}   
-    
+#personal .lines-title { color:#fff;}
+
 .big-event-content .big-event-content {
     font-size: 0.9em !important;
 }
@@ -112,5 +112,5 @@ video.view .play-btn {
 }
 
 .eventon_events_list .eventon_list_event .desc_trig {
-background-color:#ffffff !important; 
+background-color:#ffffff !important;
 }
